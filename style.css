@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quattrocento", serif;
+}
+
+html {
+    height: 100vh;
+    font-size: 14px;
+}
+
+body {
+    background-color: #020720;
+    height: 100%;
+}
+
+.container {
+    height: 100%;
+    max-width: 550px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    color: #fff;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+header img {
+    max-width: 160px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.6em;
+    margin-bottom: 2px;
+    color: #fff;
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+button {
+    background-color: #0A558d;
+}
+
+/* .degrade {
+    background: linear-gradient();
+} */
+
+/* ESTILO DOS BOTÕES */
+
+section.botoes-links {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+a.link button {
+    width: 90%;
+    padding: 12px 20px;
+    align-items: center;
+    border: none;
+    border-radius: 25px;
+    font-size: 1.2em;
+    cursor: pointer;
+    color: #fff;
+    margin: 0 auto;
+    display: block;
+}
+
+a.link button span {
+    font-family: "Josefin Sans", serif;
+}
+
+a.link button:hover, footer a.btn-footer:hover {
+    background-color: #0c64a7;
+}
+
+/* ESTILO DO FOOTER */
+
+footer {
+    text-align: center;
+    margin: 32px;
+}
+
+footer p span i {
+    font-family: "Quattrocento", serif;
+    color: #fff;
+    margin-right: 5px;
+}

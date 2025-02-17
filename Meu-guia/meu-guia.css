@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quattrocento", serif;
+}
+
+html {
+    height: 100vh;
+    font-size: 14px;
+}
+
+body {
+    background-color: #020720;
+    height: 100%;
+}
+
+header {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+
+header img {
+    max-width: 160px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+
+header h1 {
+    font-size: 2.6em;
+    margin-bottom: 2px;
+    color: #fff;
+    font-weight: 300;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    text-align: center;
+    color: #fff;
+}
+
+section.guia-programacao {
+    max-width: 550px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    color: #fff;
+
+    text-align: center;
+    border-top: 1px solid #fff; 
+    border-bottom: 1px solid #fff;
+    padding: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    section.guia-programacao {
+        padding: 20px 30px 0 30px;
+    }
+}
+
+section.guia-programacao h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+section.guia-programacao h3 {
+    font-size: 1.6em;
+}
+
+section.guia-programacao ul {
+    list-style-type: none;
+}
+
+footer {
+    text-align: center;
+    margin: 25px;
+    padding-bottom: 28px;
+}
+
+footer a.btn-footer {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    display: inline-block;
+    font-size: 2em;
+    line-height: 50px;
+    border-radius: 50%;
+    margin: 8px 10px 20px;
+}
+
+footer a.btn-footer:hover {
+    background-color: #0c64a7;
+}
+
+footer i {
+    color: #020720;
+}
+
+footer p span i {
+    font-family: "Quattrocento", serif;
+    color: #fff;
+    margin-right: 5px;
+}
